@@ -1,0 +1,80 @@
+<html lang="en">
+                                <head>
+                                    <meta charset="UTF-8">
+                                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                    <meta http-equiv="refresh" content="30" />
+                                    <title>Document</title>
+                                    <style>
+                    
+                                        @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap');
+                    
+                    
+                                        .email-main-cnt-01{
+                                            width: 95%;
+                                            justify-content: center;
+                                            margin: auto;
+                                        }
+                    
+                                        .email-cnt-01{
+                                            width: 90%;
+                                            height: auto;
+                                            display: flex;
+                                            margin: 10px;
+                                        }
+                    
+                                        .email-cnt-01 div{
+                                            width: 50px;
+                                            height: 50px;
+                                            overflow: hidden;
+                                            border-radius: 50%;
+                                            border: 1px solid;
+                                            
+                                        }
+                    
+                                        .email-cnt-01 div img{
+                                            width: 100%;
+                                            height: 100%;
+                                            object-fit: cover;
+                                        }
+                    
+                                        .email-cnt-01 strong{
+                                            font-family: Inknut Antiqua;
+                                            margin-left: 10px;
+                                        }
+
+                                        .email-cnt-btn-01{
+                                            width: 120px;
+                                            height: 30px;
+                                            margin: 10px;
+                                            color: aliceblue;
+                                            background-color: rgb(5, 148, 195);
+                                            border: 1px solid;
+                                            border-radius: 5px;
+                                            cursor: pointer;
+                                        }
+                    
+                    
+                                    </style>
+                                </head>
+                                <body>
+                                    <div class="email-main-cnt-01">
+                                        <div class="email-cnt-01">
+                                            <strong>staWro</strong>
+                                        </div>
+                                        <div class="email-cnt-02">
+                                            <span>Hello, Dear <strong>${username}</strong> </span><br/>
+                                            <p>Welcome to staWro.<br/>
+                                              Your account has been successfully created at StaWro. 
+                                              Please verify your email using the OTP. After verification, 
+                                              you can access the website's login page by clicking on Login.</p><br/>
+                                              <span>OTP : <strong>${da}</strong></span><br/>
+                                                <a href = "https://www.stawro.com/login" style="text-decoration: none;">Login</a>
+                                            <strong></strong><br/>
+                                 
+                                            <strong>Thank you</strong>
+                    
+                                        </div>
+                                    </div>
+                                    
+                                </body>
+                                </html>
